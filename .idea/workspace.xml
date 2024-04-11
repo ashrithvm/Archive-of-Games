@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b6fe8f06-fa81-454d-b519-7b556b254f2b" name="Changes" comment="Finished debugging rating route">
+      <change beforePath="$PROJECT_DIR$/backend/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="ajr3021 &lt;54864764+ajr3021@users.noreply.github.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2dMuYVY0UxywLhz0V2feBVqoZtJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kyle/Documents/GitHub/CS-320-Table-10&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="server" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="CS-320-Table-10" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-09665e90c3a7-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.15026.15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b6fe8f06-fa81-454d-b519-7b556b254f2b" name="Changes" comment="" />
+      <created>1709830316742</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709830316742</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Added collection routes">
+      <option name="closed" value="true" />
+      <created>1711733865147</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711733865147</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Updated route names to remove conflict">
+      <option name="closed" value="true" />
+      <created>1711734406242</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711734406242</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Updated /api/friends/&lt;uid&gt; route to return usernames">
+      <option name="closed" value="true" />
+      <created>1711735100403</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711735100403</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Updated /api/friends/&lt;uid&gt; route to actually return usernames">
+      <option name="closed" value="true" />
+      <created>1711735161744</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711735161744</updated>
+    </task>
+    <task id="LOCAL-00005" summary="updated /api/videogame return type">
+      <option name="closed" value="true" />
+      <created>1711742176015</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711742176015</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Updated /api/collection/collection/&lt;cid&gt; return data to give 0 instead of null for time played when there is no data">
+      <option name="closed" value="true" />
+      <created>1711742432075</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711742432075</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Updated /api/collection/user/&lt;uid&gt; to return proper values">
+      <option name="closed" value="true" />
+      <created>1711742676529</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711742676530</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added LOGGED_IN_USER_ID global reference to properly define">
+      <option name="closed" value="true" />
+      <created>1711751013238</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1711751013238</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Tested and confirmed /api/user/follow/&lt;uid&gt; POST and DELETE routes">
+      <option name="closed" value="true" />
+      <created>1711751279889</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1711751279889</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Reformatted File">
+      <option name="closed" value="true" />
+      <created>1711751506881</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1711751506881</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Re-fixed follow post route">
+      <option name="closed" value="true" />
+      <created>1711754071817</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1711754071817</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Fixed get_random_videogame route to pull from a specified collection">
+      <option name="closed" value="true" />
+      <created>1711766847663</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1711766847663</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added rating route">
+      <option name="closed" value="true" />
+      <created>1711767385494</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1711767385494</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Finished debugging rating route">
+      <option name="closed" value="true" />
+      <created>1711767596676</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1711767596676</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ID_WIDTH">
+                <map>
+                  <entry key="Table.Default.Author.ColumnIdWidth" value="74" />
+                  <entry key="Table.Default.Date.ColumnIdWidth" value="108" />
+                  <entry key="Table.Space.CommitStatus.ColumnIdWidth" value="34" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added collection routes" />
+    <MESSAGE value="Updated route names to remove conflict" />
+    <MESSAGE value="Updated /api/friends/&lt;uid&gt; route to return usernames" />
+    <MESSAGE value="Updated /api/friends/&lt;uid&gt; route to actually return usernames" />
+    <MESSAGE value="updated /api/videogame return type" />
+    <MESSAGE value="Updated /api/collection/collection/&lt;cid&gt; return data to give 0 instead of null for time played when there is no data" />
+    <MESSAGE value="Updated /api/collection/user/&lt;uid&gt; to return proper values" />
+    <MESSAGE value="Added LOGGED_IN_USER_ID global reference to properly define" />
+    <MESSAGE value="Tested and confirmed /api/user/follow/&lt;uid&gt; POST and DELETE routes" />
+    <MESSAGE value="Reformatted File" />
+    <MESSAGE value="Re-fixed follow post route" />
+    <MESSAGE value="Fixed get_random_videogame route to pull from a specified collection" />
+    <MESSAGE value="Added rating route" />
+    <MESSAGE value="Finished debugging rating route" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished debugging rating route" />
+  </component>
+</project>

@@ -1,0 +1,135 @@
+.full-banner {
+    width: 70vw;
+    height: 25vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+    margin-left: -10px;
+}
+
+.full-banner img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.header{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 35vw;
+}
+
+.header p {
+    margin-top: 10px;
+}
+
+.padded {
+    padding: 10px;
+}
+
+.padded div {
+    margin-bottom: 10px;
+}
+
+.padded ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.game-form form{
+    display: flex;
+    flex-direction: column;
+}
+
+.game-form form input {
+    margin-right: 5px;
+}
+
+.game-form form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.game-form h1, .time-form h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.game-form form p {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.time-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.time-form .not-button {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+}
+
+.time-form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.time-form button{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+}
+
+#collections-form {
+    margin-left: 20px;
+}
+
+#collections-form form button {
+    width: 100%;
+    padding: 10px;
+}
+
+.time-form label {
+    font-size: 1.5rem;
+    margin: 5px 0px;
+}
+
+.collection-checkboxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.forms {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.bottom-forms form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.bottom-forms form button {
+    width: 100%;
+    padding: 10px;
+}
